@@ -9,3 +9,8 @@ variable "s3_bucket_name" {
   type        =  string
   default     = "hello-lambda-trigger-bucket-rap" # IMPORTANT: Change this to a globally unique name
 }
+variable "github_org" {
+  type        = string
+  description = "GitHub organization or username"
+  default     = "DevpaulChani@42681081" #Change to your github username@id
+}

@@ -1,4 +1,8 @@
-
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
 .roo/
 .roomodes
 context_portal/
